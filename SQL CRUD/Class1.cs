@@ -59,7 +59,7 @@ namespace SQL_CRUD
     }
     public class Class1
     {
-        public static string m_szConn = "Integrated Security=True;encrypt=false;Initial Catalog=DGE;Data Source=AppDevWkst1\\SQLEXPRESS;User ID=dt;pwd=dG3G@m33nfor;";
+        public static string m_szConn = "Integrated Security=True;encrypt=false;Initial Catalog=DGE;Data Source=SQLEXPRESS;User ID=dt;pwd=PASSWORD;";
 
         People m_People = new People();
         protected void Create(object sender, EventArgs e, People pData)
